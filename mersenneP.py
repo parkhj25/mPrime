@@ -19,10 +19,7 @@ def is_mersenne_prime(n):
     if not is_prime(n):
         return False
     
-    
     mersenne_number = 2**n - 1
-    
-    
     return is_prime(mersenne_number)
 
 # 계산
